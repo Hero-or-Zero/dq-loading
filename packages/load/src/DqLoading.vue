@@ -23,10 +23,12 @@
 		position: absolute; 
 		background-color: #d4d4d4; 
 		top: 0; 
+		left: 0;
 		opacity: 0.8; 
 		display: flex; 
 		justify-content: center; 
 		align-items: center;
+		z-index: 1000;
 	}
 		@keyframes dqload
 			{
@@ -98,14 +100,14 @@
 		line-height: 200px; 
 		font-size: 36px; 
 		background-color: #fff;
-		background-image: url('../../static/loadImage/wyl.jpg');
+		background-image: url('static/img/wyl.jpg');
 		background-size: contain;
 		border-radius: 100px;
-		/*animation: dqload 2s linear 0 infinite normal;*/
-		/*-moz-animation: dqload 2s linear 0 infinite normal;*/
-		/*-webkit-animation: dqload 2s linear 0s infinite normal;*/
-		/*-webkit-animation:rota 2s linear 0s infinite normal;*/
-		/*-o-animation: dqload 2s linear 0 infinite normal;*/
+		animation: dqload 2s linear 0s infinite normal;
+		-moz-animation: dqload 2s linear 0s infinite normal;
+		-webkit-animation: dqload 2s linear 0s infinite normal;
+		-webkit-animation:dqload 2s linear 0s infinite normal;
+		-o-animation: dqload 2s linear 0s infinite normal;
 	}
 </style>
 <script>
