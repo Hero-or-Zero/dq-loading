@@ -1,0 +1,22 @@
+{
+  "name": "dq-loading",
+  "version": "1.0.0",
+  "description": "A test loading!",
+  "main": "index.js",
+  "scripts": {
+    "test": "loading test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hero-or-Zero/dq-loading.git"
+  },
+  "keywords": [
+    "loading"
+  ],
+  "author": "daiqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hero-or-Zero/dq-loading/issues"
+  },
+  "homepage": "https://github.com/Hero-or-Zero/dq-loading#readme"
+}
